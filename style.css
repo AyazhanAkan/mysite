@@ -1,0 +1,126 @@
+/* Базовые настройки */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Шапка */
+header {
+  background-color: #004080;
+  color: white;
+  padding: 25px 15px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+header p {
+  margin: 8px 0 15px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+/* Навигация */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 8px;
+  padding: 8px 14px;
+  text-decoration: none;
+  color: white;
+  background-color: #0066cc;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #3385ff;
+}
+
+/* Контент */
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+h2, h3 {
+  color: #004080;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 12px;
+}
+
+ul li a {
+  display: block;
+  padding: 14px 18px;
+  background-color: #e9f2fb;
+  color: #004080;
+  text-decoration: none;
+  border: 1px solid #cce0f5;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+ul li a:hover {
+  background-color: #d0e5f8;
+  border-color: #99c7ef;
+}
+
+/* Формы */
+form textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+  background-color: #fdfdfd;
+}
+
+button {
+  background-color: #004080;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #002e66;
+}
+
+/* Футер */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #e6e6e6;
+  font-size: 14px;
+  color: #555;
+  margin-top: 50px;
+}
